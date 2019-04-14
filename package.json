@@ -1,0 +1,31 @@
+{
+    "name": "p5-cli",
+    "version": "0.1.0",
+    "description": "Command Line Interface for the p5.js javascript library",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kraken22/p5-cli.git"
+    },
+    "keywords": [
+        "p5",
+        "p5js",
+        "p5.js",
+        "cli"
+    ],
+    "author": "Jordan Jantschulev <j.jantschulev@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kraken22/p5-cli/issues"
+    },
+    "homepage": "https://github.com/kraken22/p5-cli#readme",
+    "dependencies": {
+        "commander": "^2.20.0"
+    },
+    "bin": {
+        "p5-cli": "./src/index.js"
+    }
+}
